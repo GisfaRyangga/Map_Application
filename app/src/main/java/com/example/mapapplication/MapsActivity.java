@@ -116,7 +116,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 map.addMarker(new MarkerOptions().position(latLng)
                         .title("Dropped pin")
                         .snippet(text)
-                        .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_android_black_24dp)));
+                        .icon(BitmapFromVector(getApplicationContext(), R.drawable.haaland_head)));
             }
         });
     }
@@ -129,7 +129,7 @@ public class MapsActivity extends AppCompatActivity implements OnMapReadyCallbac
                 Marker poiMarker = mMap.addMarker(new MarkerOptions()
                         .position(pointOfInterest.latLng)
                         .title(pointOfInterest.name)
-                        .icon(BitmapFromVector(getApplicationContext(), R.drawable.ic_android_red_24dp)));
+                        .icon(BitmapFromVector(getApplicationContext(), R.drawable.mbappe_head)));
                 poiMarker.showInfoWindow();
             }
         });
